@@ -1,5 +1,23 @@
+import LandingLayout from './layouts/landing';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+import Home from './pages/app';
+
 const App = () => {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <LandingLayout />,
+      children: [
+        {
+          path: '/home',
+          element: <Home />,
+        },
+      ],
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 };
 
 export default App;
