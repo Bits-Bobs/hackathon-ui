@@ -37,13 +37,11 @@ export const socialMediaIcons = [
 ];
 
 export const footerSections = [
-  { title: 'Contactez-nous :', items: ['Adresse : 123 Rue des Écologistes'
-    , 'Téléphone : +261 34 05 666 10'
-    , 'hackafako.mg@gmail.com'] },
+  {
+    title: 'Contactez-nous :',
+    items: ['Adresse : 123 Rue des Écologistes', 'Téléphone : +261 34 05 666 10', 'hackafako.mg@gmail.com'],
+  },
   { title: 'Our Promise:', items: ['Minimized environmental impact', 'Transparency and ethical conduct'] },
-  
-  
-
 ];
 
 export const DEFAULT_PATH = PATH_DASHBOARD.general.home;

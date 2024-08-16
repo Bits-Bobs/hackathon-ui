@@ -1,6 +1,7 @@
 import Accessibility from './accessibility.png';
 import BannerImg from './bannerImage.webp';
 import Coin from './coin.png';
+import ContactImg from './contact.png';
 import Facebook from './facebook.png';
 import Instagram from './instagram.png';
 import Language from './language.png';
@@ -12,7 +13,6 @@ import Service2 from './service 2.jpg';
 import Service3 from './service 3.jpg';
 import Service from './service.jpg';
 import Twitter from './twitter.png';
-import ContactImg from './contact.png';
 
 export {
   ProfileAvatar,
@@ -29,5 +29,5 @@ export {
   Service1,
   Service2,
   Service3,
-  ContactImg
+  ContactImg,
 };
