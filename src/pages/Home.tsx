@@ -3,7 +3,7 @@ import { services } from '../lib';
 
 export const Home = () => {
   return (
-    <main className='scroll-smooth'>
+    <main>
       <Hero />
       <div className='py-10' id='about'>
         <About />
