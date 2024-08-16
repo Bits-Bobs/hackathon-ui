@@ -9,6 +9,9 @@ export default {
           '100%': { transform: 'translateY(10px)' },
         },
       },
+      boxShadow: {
+        'vignette': 'inset 0 0 70px 50px black',
+      },
       animation: {
         float: 'floating-animation 2s ease infinite alternate',
       },
