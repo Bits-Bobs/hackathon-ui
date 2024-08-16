@@ -1,7 +1,6 @@
-import LandingLayout from './layouts/landing';
+import { LandingLayout } from './layouts';
+import { Home } from './pages';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
-import Home from './pages/app';
 
 const App = () => {
   const router = createBrowserRouter([
