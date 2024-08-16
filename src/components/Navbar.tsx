@@ -19,7 +19,7 @@ export const Navbar = () => {
           <a href={'#about'}>About</a>
           <a href={'#services'}>Our services</a>
           <a href={'#contact'}>Contact</a>
-          <Link to={import.meta.env.VITE_HACKATRANO_DASHBOARD} className='rounded bg-[#CC8865] px-5 py-2'>
+          <Link to={import.meta.env.VITE_HACKAFAKO_DASHBOARD} className='rounded bg-[#CC8865] px-5 py-2'>
             Continue to application
           </Link>
         </div>
