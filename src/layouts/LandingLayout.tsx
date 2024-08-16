@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 
-import { Footer, Navbar } from '../../components/common';
+import { Footer, Navbar } from '../components/common';
 
-const LandingLayout = () => {
+export const LandingLayout = () => {
   return (
     <main className='font-poppins'>
       <Navbar />
@@ -11,5 +11,3 @@ const LandingLayout = () => {
     </main>
   );
 };
-
-export default LandingLayout;
