@@ -5,7 +5,7 @@ import Navbar from '../../components/common/navbar';
 
 const LandingLayout = () => {
   return (
-    <main>
+    <main className='font-poppins'>
       <Navbar />
       <Outlet />
       <Footer />
