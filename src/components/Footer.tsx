@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import Newsletter from '../components/Newsletter'
 
 import { footerSections, socialMediaIcons } from '../lib';
 
@@ -6,7 +7,6 @@ type FooterProps = {
   title: string;
   items: string[];
 };
-
 const FooterSection: FC<FooterProps> = ({ title, items }) => (
   <div className='flex flex-col gap-2.5'>
     <h2 className='mb-5 text-xl font-semibold'>{title}</h2>
@@ -19,6 +19,7 @@ const FooterSection: FC<FooterProps> = ({ title, items }) => (
       </span>
     ))}
   </div>
+  
 );
 
 export const Footer = () => (
@@ -28,6 +29,7 @@ export const Footer = () => (
         {footerSections.map((section, index) => (
           <FooterSection key={index} {...section} />
         ))}
+        <Newsletter/>
       </div>
       <hr className='my-12 w-full border border-[#E3DCD2]' />
       <div className='flex items-center justify-between'>

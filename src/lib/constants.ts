@@ -41,8 +41,8 @@ export const footerSections = [
     , 'Téléphone : +261 34 05 666 10'
     , 'hackafako.mg@gmail.com'] },
   { title: 'Our Promise:', items: ['Minimized environmental impact', 'Transparency and ethical conduct'] },
-  { title: 'Title 3', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 4', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  
+  
 
 ];
 
