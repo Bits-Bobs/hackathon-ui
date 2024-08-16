@@ -1,12 +1,12 @@
+import { Button } from './Button.tsx';
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import useScrollActive from '../../hooks/useScrollActive';
-
 import { ProfileAvatar } from '../../assets';
+import { useScrollActive } from '../../hooks';
 import { currentUser } from '../../lib';
 
-const Navbar = () => {
+export const Navbar = () => {
   const active = useScrollActive();
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
@@ -25,8 +25,7 @@ const Navbar = () => {
 
           {!currentUser?.isAdmin && (
             <>
-              <span>Sign in</span>
-              <button className='bg-red-400 py-2 px-5 rounded hover:bg-amber-300 transition-all'>Join</button>
+              <Button>Sign in</Button>
             </>
           )}
 
@@ -60,5 +59,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

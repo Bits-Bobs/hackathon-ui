@@ -1,12 +1,11 @@
 import { Outlet } from 'react-router-dom';
 
-import Footer from '../../components/common/Footer.tsx';
-import Index from '../../components/common/Navbar.tsx';
+import { Footer, Navbar } from '../../components/common';
 
 const LandingLayout = () => {
   return (
     <main className='font-poppins'>
-      <Index />
+      <Navbar />
       <Outlet />
       <Footer />
     </main>
