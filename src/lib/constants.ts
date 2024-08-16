@@ -1,4 +1,5 @@
-import { Service } from '../assets';
+import { Facebook, Instagram, LinkedIn, Pinterest, Service, Twitter } from '../assets';
+import { PATH_DASHBOARD } from '../routes/path';
 
 export const currentUser = {
   id: 1,
@@ -26,3 +27,21 @@ export const services = [
     img: 'https://img.freepik.com/photos-premium/sac-femme-fleches-recyclage-studio-pour-emballage-vente-au-detail-durable-fond-bleu-produit-ecologique-changement-climatique-fille-africaine-responsable-sauver-planete_590464-203153.jpg',
   },
 ];
+
+export const socialMediaIcons = [
+  { icon: Twitter, alt: 'Twitter' },
+  { icon: Facebook, alt: 'Facebook' },
+  { icon: LinkedIn, alt: 'LinkedIn' },
+  { icon: Pinterest, alt: 'Pinterest' },
+  { icon: Instagram, alt: 'Instagram' },
+];
+
+export const footerSections = [
+  { title: 'Title 1', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 2', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 3', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 4', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 5', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+];
+
+export const DEFAULT_PATH = PATH_DASHBOARD.general.home;
