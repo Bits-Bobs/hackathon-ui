@@ -1,28 +1,11 @@
 import { FC } from 'react';
 
-import { Facebook, Instagram, LinkedIn, Pinterest, Twitter } from '../assets';
+import { footerSections, socialMediaIcons } from '../lib';
 
 type FooterProps = {
   title: string;
   items: string[];
 };
-
-const socialMediaIcons = [
-  { icon: Twitter, alt: 'Twitter' },
-  { icon: Facebook, alt: 'Facebook' },
-  { icon: LinkedIn, alt: 'LinkedIn' },
-  { icon: Pinterest, alt: 'Pinterest' },
-  { icon: Instagram, alt: 'Instagram' },
-];
-
-const footerSections = [
-  { title: 'Title 1', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 2', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 3', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 4', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 5', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-];
-
 
 const FooterSection: FC<FooterProps> = ({ title, items }) => (
   <div className='flex flex-col gap-2.5'>
@@ -52,7 +35,7 @@ export const Footer = () => (
           <h2 className='text-shadow-lg text-[#CC8B65]'>HackaFako</h2>
           <span className='whitespace-nowrap text-sm'>© HackaFako Madagascar. 2024</span>
         </div>
-        <div className='w-[200px] justify-between flex items-center'>
+        <div className='flex w-[200px] items-center justify-between'>
           {socialMediaIcons.map((icon, index) => (
             <img key={index} src={icon.icon} alt={icon.alt} className='h-5 w-5 cursor-pointer' />
           ))}
