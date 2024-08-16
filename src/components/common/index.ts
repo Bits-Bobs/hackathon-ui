@@ -1,2 +1,3 @@
-export * from './Footer.tsx';
-export * from './Navbar.tsx';
+export * from './Footer';
+export * from './Navbar';
+export * from './Button';

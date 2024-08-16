@@ -1,1 +1,1 @@
-export * from './useScrollActive'
+export * from './useScrollActive';
