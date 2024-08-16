@@ -16,7 +16,7 @@ export const ServiceCard: FC<ServiceCard> = ({ item }) => {
   }, []);
 
   return (
-    <article>
+    <article className='shadow-2xl'>
       <div className='relative h-[344px] w-[252px] cursor-pointer rounded-lg text-white'>
         <div className='absolute inset-0 bottom-0 rounded-lg bg-black opacity-50' />
         <img

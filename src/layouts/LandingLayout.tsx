@@ -3,7 +3,7 @@ import { services } from '../lib';
 
 export const LandingLayout = () => {
   return (
-    <main className='font-poppins'>
+    <main className='font-poppins bg-[#E3DCD2]'>
       <Navbar />
       <section>
         <Hero />
