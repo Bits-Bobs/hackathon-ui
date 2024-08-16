@@ -11,7 +11,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
 
-  const navbarClassName = `sticky top-0 z-[999] w-full ${active || pathname !== '/home' ? 'bg-[#0e1127]' : 'bg-[#1c304b]'} transition-all duration-200 ease-in-out`;
+  const navbarClassName = `sticky top-0 z-[999] w-full ${active || pathname !== '/home' ? 'bg-[#013328]' : 'bg-[#013328]'} transition-all duration-200 ease-in-out`;
 
   return (
     <nav className={navbarClassName}>
