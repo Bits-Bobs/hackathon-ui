@@ -1,2 +1,2 @@
-export * from './footer';
-export * from './navbar';
+export * from './Footer.tsx';
+export * from './Navbar.tsx';
