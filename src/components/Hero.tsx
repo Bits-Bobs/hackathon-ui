@@ -5,20 +5,21 @@ import Typed from 'typed.js';
 
 import { BannerImg } from '../assets';
 
+const typedConfig = {
+  strings: ['perfect services'],
+  typeSpeed: 50,
+};
+
 export const Hero = () => {
   const el = useRef(null);
-  useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ['perfect services'],
-      typeSpeed: 50,
-    });
-    return () => {
-      typed.destroy();
-    };
-  }, []);
 
   useEffect(() => {
     AOS.init();
+
+    const typed = new Typed(el.current, typedConfig);
+    return () => {
+      typed?.destroy();
+    };
   }, []);
 
   return (

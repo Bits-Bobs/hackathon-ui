@@ -17,7 +17,7 @@ export const Navbar = () => {
     <nav className={navbarClassName}>
       <div className='mx-auto flex max-w-[1080px] justify-between py-5'>
         <Link to={'/home'}>
-          <span className='cursor-pointer text-[20px] font-extrabold text-white'>HackaFako</span>
+          <span className='cursor-pointer text-3xl font-semibold text-white'>HackaFako</span>
         </Link>
         <div className='flex items-center gap-10 text-[14px] font-medium text-white'>
           <Link to={'/'}>HackaFako business</Link>
