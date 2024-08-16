@@ -2,9 +2,9 @@ import { Button } from './Button.tsx';
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import { ProfileAvatar } from '../../assets';
-import { useScrollActive } from '../../hooks';
-import { currentUser } from '../../lib';
+import { ProfileAvatar } from '../assets';
+import { useScrollActive } from '../hooks';
+import { currentUser } from '../lib';
 
 export const Navbar = () => {
   const active = useScrollActive();
