@@ -1,4 +1,4 @@
-import { Service } from '../assets';
+import { Facebook, Instagram, LinkedIn, Pinterest, Service, Twitter } from '../assets';
 
 export const currentUser = {
   id: 1,
@@ -25,4 +25,20 @@ export const services = [
     description: 'Some description',
     img: Service,
   },
+];
+
+export const socialMediaIcons = [
+  { icon: Twitter, alt: 'Twitter' },
+  { icon: Facebook, alt: 'Facebook' },
+  { icon: LinkedIn, alt: 'LinkedIn' },
+  { icon: Pinterest, alt: 'Pinterest' },
+  { icon: Instagram, alt: 'Instagram' },
+];
+
+export const footerSections = [
+  { title: 'Title 1', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 2', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 3', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 4', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Title 5', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
 ];

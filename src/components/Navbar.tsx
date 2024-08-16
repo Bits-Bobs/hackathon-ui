@@ -17,7 +17,9 @@ export const Navbar = () => {
         <div className='flex items-center gap-10 text-[14px] font-medium text-white'>
           <Link to={'/'}>HackaFako business</Link>
           <Link to={'/'}>Explore</Link>
-          <Link to={import.meta.env.VITE_HACKATRANO_DASHBOARD} className='rounded bg-[#CC8865] px-5 py-2'>Continue to application</Link>
+          <Link to={import.meta.env.VITE_HACKATRANO_DASHBOARD} className='rounded bg-[#CC8865] px-5 py-2'>
+            Continue to application
+          </Link>
         </div>
       </div>
     </nav>
