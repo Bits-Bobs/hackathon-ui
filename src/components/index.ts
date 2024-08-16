@@ -5,3 +5,5 @@ export * from './Hero';
 export * from './ServiceSlide';
 export * from './ServiceCard';
 export * from './About';
+export * from './Contact';
+export * from './ContactForm';
