@@ -9,25 +9,19 @@ export const currentUser = {
 export const services = [
   {
     id: 1,
-    title: 'Service 1',
-    description: 'Some description',
-    img: Service,
+    title: 'Waste Pickup',
+    description: 'contribute to a healthier environment and encourage a sustainable future.',
+    img: 'https://bucketlistjourney.net/wp-content/uploads/2023/12/Organize-a-Community-Clean-Up-RF-2-768x576.jpg',
   },
   {
     id: 2,
-    title: 'Service 2',
-    description: 'Some description',
+    title: 'Recycling',
+    description: ' Une opportunités pour un avenir plus vert',
     img: Service,
   },
   {
     id: 3,
     title: 'Service 3',
-    description: 'Some description',
-    img: Service,
-  },
-  {
-    id: 4,
-    title: 'Service 4',
     description: 'Some description',
     img: Service,
   },
