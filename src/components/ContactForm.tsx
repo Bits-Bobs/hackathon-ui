@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+
 export const ContactForm = () => {
   return (
     <form style={{ flex: 2 }} className='space-y-4'>
@@ -20,7 +23,7 @@ export const ContactForm = () => {
         type='submit'
         className='bg-[#CC8865] flex w-full items-center justify-center gap-2 rounded-md p-2 text-white transition-colors hover:bg-[#100C0D]'
       >
-        Send
+        Send <FontAwesomeIcon icon={faPaperPlane} />
       </button>
     </form>
   );
