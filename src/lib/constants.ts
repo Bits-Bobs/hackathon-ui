@@ -37,11 +37,13 @@ export const socialMediaIcons = [
 ];
 
 export const footerSections = [
-  { title: 'Title 1', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 2', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+  { title: 'Contactez-nous :', items: ['Adresse : 123 Rue des Écologistes'
+    , 'Téléphone : +261 34 05 666 10'
+    , 'hackafako.mg@gmail.com'] },
+  { title: 'Our Promise:', items: ['Minimized environmental impact', 'Transparency and ethical conduct'] },
   { title: 'Title 3', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
   { title: 'Title 4', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
-  { title: 'Title 5', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
+
 ];
 
 export const DEFAULT_PATH = PATH_DASHBOARD.general.home;
