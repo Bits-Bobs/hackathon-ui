@@ -1,21 +1,12 @@
-import { Footer, Hero, Navbar, ServiceCard, ServiceSlide } from '../components';
-import { services } from '../lib';
+import { Outlet } from 'react-router-dom';
+
+import { Footer, Navbar } from '../components';
 
 export const LandingLayout = () => {
   return (
-    <main className='font-poppins bg-[#E3DCD2]'>
+    <main className='bg-[#E3DCD2] font-poppins'>
       <Navbar />
-      <section>
-        <Hero />
-        <div className='py-10'>
-          <h1 className='text-center text-4xl font-semibold text-[#100C0D]'>Our services</h1>
-          <ServiceSlide>
-            {services.map((service) => (
-              <ServiceCard item={service} key={service.id} />
-            ))}
-          </ServiceSlide>
-        </div>
-      </section>
+      <Outlet />
       <Footer />
     </main>
   );

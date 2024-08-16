@@ -1,22 +1,7 @@
-import { LandingLayout } from './layouts';
-import { Home } from './pages';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Router from './routes/Router.tsx';
 
 const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <LandingLayout />,
-      children: [
-        {
-          path: '/home',
-          element: <Home />,
-        },
-      ],
-    },
-  ]);
-
-  return <RouterProvider router={router} />;
+  return <Router />;
 };
 
 export default App;

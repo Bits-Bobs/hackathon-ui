@@ -1,4 +1,5 @@
 import { Facebook, Instagram, LinkedIn, Pinterest, Service, Twitter } from '../assets';
+import { PATH_DASHBOARD } from '../routes/path';
 
 export const currentUser = {
   id: 1,
@@ -42,3 +43,5 @@ export const footerSections = [
   { title: 'Title 4', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
   { title: 'Title 5', items: ['Something 1', 'Something 2', 'Something 3', 'Something 4'] },
 ];
+
+export const DEFAULT_PATH = PATH_DASHBOARD.general.home;
