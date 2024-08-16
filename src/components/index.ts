@@ -4,3 +4,4 @@ export * from './Button';
 export * from './Hero';
 export * from './ServiceSlide';
 export * from './ServiceCard';
+export * from './About';

@@ -15,8 +15,10 @@ export const Navbar = () => {
           <span className='cursor-pointer text-3xl font-semibold text-white'>HackaFako</span>
         </Link>
         <div className='flex items-center gap-10 text-[14px] font-medium text-white'>
-          <Link to={'/'}>HackaFako business</Link>
-          <Link to={'/'}>Explore</Link>
+          <a href={'#home'}>Home</a>
+          <a href={'#about'}>About</a>
+          <a href={'#services'}>Our services</a>
+          <a href={'#contact'}>Contact</a>
           <Link to={import.meta.env.VITE_HACKATRANO_DASHBOARD} className='rounded bg-[#CC8865] px-5 py-2'>
             Continue to application
           </Link>

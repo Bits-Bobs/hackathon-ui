@@ -1,11 +1,14 @@
-import { Hero, ServiceCard, ServiceSlide } from '../components';
+import { About, Hero, ServiceCard, ServiceSlide } from '../components';
 import { services } from '../lib';
 
 export const Home = () => {
   return (
-    <main>
+    <main className='scroll-smooth'>
       <Hero />
-      <div className='py-10'>
+      <div className='py-10' id='about'>
+        <About />
+      </div>
+      <div className='py-10' id='services'>
         <h1 className='text-center text-4xl font-semibold text-[#100C0D]'>Our services</h1>
         <ServiceSlide>
           {services.map((service) => (
