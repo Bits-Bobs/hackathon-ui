@@ -12,6 +12,7 @@ import Service2 from './service 2.jpg';
 import Service3 from './service 3.jpg';
 import Service from './service.jpg';
 import Twitter from './twitter.png';
+import ContactImg from './contact.png';
 
 export {
   ProfileAvatar,
@@ -28,4 +29,5 @@ export {
   Service1,
   Service2,
   Service3,
+  ContactImg
 };
