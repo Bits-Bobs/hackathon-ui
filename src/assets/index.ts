@@ -8,5 +8,18 @@ import LinkedIn from './linkedin.png';
 import Pinterest from './pinterest.png';
 import ProfileAvatar from './profile.jpg';
 import Service from './service.jpg';
+import Twitter from './twitter.png';
 
-export { ProfileAvatar, BannerImg, Service, Accessibility, Coin, Facebook, Instagram, Language, LinkedIn, Pinterest };
+export {
+  ProfileAvatar,
+  BannerImg,
+  Service,
+  Accessibility,
+  Coin,
+  Facebook,
+  Instagram,
+  Language,
+  LinkedIn,
+  Pinterest,
+  Twitter,
+};
