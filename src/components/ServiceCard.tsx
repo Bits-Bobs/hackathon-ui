@@ -21,7 +21,7 @@ export const ServiceCard: FC<ServiceCard> = ({ item }) => {
         <div className='absolute inset-0 bottom-0 rounded-lg bg-black opacity-50' />
         <img
           src={item.img}
-          alt='Item image'
+          alt='Service photos'
           className='h-full w-full rounded-lg bg-cover object-cover saturate-0 filter transition-all duration-500 ease-in-out hover:saturate-100'
         />
         <span className='absolute bottom-3 left-3 text-xs font-normal'>{item.description}</span>
