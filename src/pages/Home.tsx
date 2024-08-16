@@ -6,7 +6,7 @@ export const Home = () => {
     <main>
       <Hero />
       <div className='py-10'>
-        <h1 className='text-center text-4xl font-semibold'>Nos services</h1>
+        <h1 className='text-center text-4xl text-[#100C0D] font-semibold'>Our services</h1>
         <ServiceSlide>
           {services.map((service) => (
             <ServiceCard item={service} key={service.id} />
