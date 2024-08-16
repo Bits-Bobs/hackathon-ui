@@ -1,5 +1,6 @@
 import { FC } from 'react';
-import Newsletter from '../components/Newsletter'
+
+import Newsletter from '../components/Newsletter';
 
 import { footerSections, socialMediaIcons } from '../lib';
 
@@ -19,7 +20,6 @@ const FooterSection: FC<FooterProps> = ({ title, items }) => (
       </span>
     ))}
   </div>
-  
 );
 
 export const Footer = () => (
@@ -29,7 +29,7 @@ export const Footer = () => (
         {footerSections.map((section, index) => (
           <FooterSection key={index} {...section} />
         ))}
-        <Newsletter/>
+        <Newsletter />
       </div>
       <hr className='my-12 w-full border border-[#E3DCD2]' />
       <div className='flex items-center justify-between'>
