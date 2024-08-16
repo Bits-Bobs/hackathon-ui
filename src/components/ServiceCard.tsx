@@ -24,8 +24,8 @@ export const ServiceCard: FC<ServiceCard> = ({ item }) => {
           alt='Service photos'
           className='h-full w-full rounded-lg bg-cover object-cover saturate-0 filter transition-all duration-500 ease-in-out hover:saturate-100'
         />
+        <span className='absolute bottom-20 left-4 text-[20px] font-semibold capitalize'>{item.title}</span>
         <span className='absolute bottom-3 left-3 text-xs font-normal'>{item.description}</span>
-        <span className='absolute bottom-10 left-4 text-[20px] font-semibold'>{item.title}</span>
       </div>
     </article>
   );
